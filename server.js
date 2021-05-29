@@ -4,7 +4,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send(' Node.js app server one 3001!')
+    res.send(' thi is service on 3001!')
 })
 
 app.listen(3001, () => {
